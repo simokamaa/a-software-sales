@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kamau waweru</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <nav id="nav">
+    <a href="/">
+      <h3>kamau waweru</h3>
+    </a>
+
+    <div class="right">
+      <a href="/product">Product</a>
+
+      <a href="/pricing">Pricing</a>
+
+      <a href="/about">About</a>
+
+      <a href="/contact">Contact</a>
+
+      <a href="/free-trial" class="no-focus" tabindex="-1">
+        <button>Start free trial</button>
+      </a>
+
+      <div class="hamburger" onclick="nav();" id="hamburger">
+        <div class="line top" id="one"></div>
+
+        <div class="line bottom" id="two"></div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="home">
+    <section class="landing">
+      <div class="decoration"></div>
+
+      <div class="text">
+        <div class="top">
+          <h1>The ultimate software for sales and services</h1>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+
+        <div class="email">
+          <input placeholder="Enter your email address">
+
+          <a href="/free-trial" class="no-focus" tabindex="-1">
+            <button>Start free trial</button>
+          </a>
+        </div>
+      </div>
+      <div <div class="media-wrapper">
+        <div class="media">
+          <div class="side">
+            <div class="component sidebar">
+              <h5>Source</h5>
+
+              <div class="tabs">
+                <div class="tab active">
+                  <ion-icon name="home" role="img" class="md hydrated" aria-label="home"></ion-icon>
+
+                  <p>Dashboard</p>
+                </div>
+
+                <div class="tab">
+                  <ion-icon name="cash" role="img" class="md hydrated" aria-label="cash"></ion-icon>
+
+                  <p>Sales</p>
+                </div>
+
+                <div class="tab">
+                  <ion-icon name="analytics" role="img" class="md hydrated" aria-label="analytics"></ion-icon>
+
+                  <p>Analytics</p>
+                </div>
+
+                <div class="tab">
+                  <ion-icon name="clipboard" role="img" class="md hydrated" aria-label="clipboard"></ion-icon>
+
+                  <p>Reports</p>
+                </div>
+
+                <div class="tab">
+                  <ion-icon name="cart" role="img" class="md hydrated" aria-label="cart"></ion-icon>
+
+                  <p>Market</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="component people vertical">
+              <h5>Team</h5>
+
+              <div class="persons">
+                <div class="person">
+                  <img src="media/components/person1.svg">
+
+                  <p>John Doe</p>
+                </div>
+
+                <div class="person">
+                  <img src="media/components/person2.svg">
+
+                  <p>Jane Doe</p>
+                </div>
+
+                <div class="person">
+                  <img src="media/components/person3.svg">
+
+                  <p>Jenny Doe</p>
+                </div>
+
+                <div class="person">
+                  <img src="media/components/person4.svg">
+
+                  <p>Josh Doe</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="top">
+              <div class="component people horizontal long">
+                <div class="left">
+                  <h5>Sales team</h5>
+
+                  <p>1 lead, 3 employees</p>
+                </div>
+
+                <div class="persons">
+                  <img src="/media/components/person1.svg">
+
+                  <img src="/media/components/person2.svg">
+
+                  <img src="/media/components/person3.svg">
+
+                  <img src="/media/components/person4.svg">
+                </div>
+              </div>
+
+              <div class="component notification">
+                <div class="icon-wrapper">
+                  <ion-icon name="alert" role="img" class="md hydrated" aria-label="analytics"></ion-icon>
+                </div>
+
+                <div class="text">
+                  <h5>Shareholder meeting</h5>
+
+                  <p>In 10 minutes</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <div class="component tasks">
+                  <h5>Tasks</h5>
+
+                  <div class="list">
+                    <div class="list-item">
+                      <div class="icon-wrapper positive">
+                        <ion-icon name="checkmark" role="img" class="md hydrated" aria-label="checkmark"></ion-icon>
+                      </div>
+
+                      <p>Review listings</p>
+                    </div>
+
+                    <div class="list-item">
+                      <div class="icon-wrapper positive">
+                        <ion-icon name="checkmark" role="img" class="md hydrated" aria-label="checkmark"></ion-icon>
+                      </div>
+
+                      <p>Send emails</p>
+                    </div>
+
+                    <div class="list-item">
+                      <div class="icon-wrapper negative">
+                        <ion-icon name="close" role="img" class="md hydrated" aria-label="close"></ion-icon>
+                      </div>
+
+                      <p>Approve plannings</p>
+                    </div>
+
+                    <div class="list-item">
+                      <div class="icon-wrapper positive">
+                        <ion-icon name="checkmark" role="img" class="md hydrated" aria-label="checkmark"></ion-icon>
+                      </div>
+
+                      <p>Update software</p>
+                    </div>
+
+                    <div class="list-item">
+                      <div class="icon-wrapper negative">
+                        <ion-icon name="close" role="img" class="md hydrated" aria-label="close"></ion-icon>
+                      </div>
+
+                      <p>Release sales</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="component icon">
+                  <div class="left">
+                    <div class="icon-wrapper">
+                      <ion-icon name="analytics" role="img" class="md hydrated" aria-label="analytics"></ion-icon>
+                    </div>
+
+                    <div class="text">
+                      <h5>120%</h5>
+
+                      <p>Analytics rate</p>
+                    </div>
+                  </div>
+
+                  <div class="icon-wrapper positive">
+                    <ion-icon name="trending-up" role="img" class="md hydrated" aria-label="trending up"></ion-icon>
+                  </div>
+                </div>
+
+                <div class="component trendline">
+                  <p>Revenue</p>
+
+                  <h5>$3.99M</h5>
+
+                  <div class="tag">
+                    <ion-icon name="trending-up" role="img" class="md hydrated" aria-label="trending up"></ion-icon>
+
+                    <span>8.16%</span>
+                  </div>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="247" height="69" viewBox="0 0 247 69" fill="none">
+                    <path
+                      d="M0 67.3271C3.23578 65.3271 3.69731 60.6397 6.06757 57.413C11.0542 50.6244 16.8281 43.9494 25.57 41.2478C35.423 38.2028 44.6116 40.7158 52.8557 46.1402C56.5237 48.5536 59.7825 51.4003 63.3654 53.9068C67.2663 56.6357 71.437 59.0018 75.5462 61.4492C80.9288 64.6549 86.3414 67.4015 92.8499 67.4015C106.172 67.4015 110.248 51.2285 117.189 43.1844C126.846 31.9932 142.159 30.8461 156.678 32.1766C161.097 32.5816 165.498 33.4483 169.936 33.6035C176.663 33.8389 183.432 33.6443 190.164 33.6443C201.444 33.6443 210.788 26.8129 218.197 19.4157C222.363 15.256 225.103 10.0446 229.213 5.75789C233.683 1.09555 241.023 2.08863 247 2.08863"
+                      stroke="#5C5CDE" stroke-width="3" stroke-linecap="round"></path>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="component trendline-big">
+                  <div class="top">
+                    <div class="left">
+                      <div class="icon-wrapper">
+                        <ion-icon name="people" role="img" class="md hydrated" aria-label="people"></ion-icon>
+                      </div>
+
+                      <div class="text">
+                        <h5>1.5K</h5>
+
+                        <p>Daily users</p>
+                      </div>
+                    </div>
+
+                    <div class="tag">
+                      <ion-icon name="trending-up" role="img" class="md hydrated" aria-label="trending up"></ion-icon>
+
+                      <span>8.16%</span>
+                    </div>
+                  </div>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="532" height="69" viewBox="0 0 532 69" fill="none">
+                    <path
+                      d="M532 2.07391C525.031 4.06163 524.037 8.72025 518.931 11.9272C508.191 18.6741 495.755 25.3081 476.926 27.9931C455.704 31.0195 435.913 28.5218 418.157 23.1308C410.257 20.7322 403.238 17.903 395.521 15.4119C387.119 12.6997 378.136 10.3481 369.285 7.91582C357.692 4.72972 346.034 2 332.016 2C303.321 2 294.542 18.0737 279.592 26.0685C258.793 37.1909 225.812 38.331 194.54 37.0087C185.021 36.6062 175.542 35.7448 165.984 35.5905C151.494 35.3566 136.916 35.55 122.416 35.55C98.1202 35.55 77.994 42.3394 62.0369 49.6912C53.0636 53.8254 47.1633 59.0048 38.3113 63.2652C28.6836 67.8989 12.8739 66.9119 -2.12447e-05 66.9119"
+                      stroke="#5C5CDE" stroke-width="3" stroke-linecap="round"></path>
+                  </svg>
+                </div>
+
+                <div class="row-three">
+                  <div class="component pie-chart">
+                    <div class="main">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path
+                          d="M24.0033 23.9967V0C37.2563 0 48 10.7437 48 23.9967C48 34.0849 41.6904 43.0959 32.2106 46.5463L24.0033 23.9967Z"
+                          fill="#5C5CDE"></path>
+                        <path
+                          d="M24.0033 23.9967L32.2106 46.5463C19.7569 51.0791 5.98651 44.6579 1.45371 32.2041C-3.07909 19.7503 3.34212 5.97998 15.7959 1.44718C18.4263 0.489778 21.204 0 24.0033 0V23.9967Z"
+                          fill="#DFDFFE"></path>
+                      </svg>
+
+                      <h4>44%</h4>
+                    </div>
+
+                    <p>Complete</p>
+                  </div>
+
+                  <div class="component pie-chart">
+                    <div class="main">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path
+                          d="M24 24V0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 16.3175 3.67786 9.09926 9.89315 4.58359L24 24Z"
+                          fill="#5C5CDE"></path>
+                        <path d="M24 24L9.89317 4.58359C13.9935 1.60452 18.9317 0 24 0V24Z" fill="#DFDFFE"></path>
+                      </svg>
+
+                      <h4>90%</h4>
+                    </div>
+
+                    <p>Happiness</p>
+                  </div>
+
+                  <div class="component pie-chart">
+                    <div class="main">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path
+                          d="M24.0026 24V0C37.256 0 48 10.7452 48 24C48 37.2548 37.256 48 24.0026 48C12.8066 48 3.09826 40.257 0.606903 29.3405L24.0026 24Z"
+                          fill="#5C5CDE"></path>
+                        <path
+                          d="M24.0026 24L0.606931 29.3405C-2.34222 16.418 5.74163 3.55121 18.6627 0.60173C20.4146 0.201842 22.2058 0 24.0026 0V24Z"
+                          fill="#DFDFFE"></path>
+                      </svg>
+
+                      <h4>70%</h4>
+                    </div>
+
+                    <p>Complete</p>
+                  </div>
+                </div>
+
+                <div class="row-two">
+                  <div class="left">
+                    <div class="component progresses">
+                      <div class="text">
+                        <p>Invoices</p>
+
+                        <h5>$6,500</h5>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="inner"></div>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="inner two"></div>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="inner three"></div>
+                      </div>
+                    </div>
+
+                    <div class="row-four">
+                      <div class="component icon">
+                        <ion-icon name="settings" role="img" class="md hydrated" aria-label="settings"></ion-icon>
+                      </div>
+
+                      <div class="component icon">
+                        <ion-icon name="contrast" role="img" class="md hydrated" aria-label="contrast"></ion-icon>
+                      </div>
+
+                      <div class="component icon">
+                        <ion-icon name="people" role="img" class="md hydrated" aria-label="people"></ion-icon>
+                      </div>
+
+                      <div class="component icon">
+                        <ion-icon name="ellipsis-horizontal-circle" role="img" class="md hydrated"
+                          aria-label="ellipsis horizontal circle"></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="component bar-chart">
+                    <p>Growth</p>
+
+                    <h5>56%</h5>
+
+                    <div class="tag">
+                      <ion-icon name="trending-up" role="img" class="md hydrated" aria-label="trending up"></ion-icon>
+
+                      <span>$300.2</span>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="152" height="123" viewBox="0 0 152 123" fill="none">
+                      <rect width="24" height="123" rx="8" fill="#5C5CDE"></rect>
+                      <rect x="32" y="51" width="24" height="72" rx="8" fill="#5C5CDE"></rect>
+                      <rect x="64" y="31" width="24" height="92" rx="8" fill="#5C5CDE"></rect>
+                      <rect x="96" y="91" width="24" height="32" rx="8" fill="#5C5CDE"></rect>
+                      <rect x="128" y="62" width="24" height="61" rx="8" fill="#5C5CDE"></rect>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="intro">
+        <p class="accent">Exceptional quality</p>
+
+        <h2>The top-notch app</h2>
+      </div>
+
+      <div class="container">
+        <div class="feature">
+          <div class="icon-wrapper">
+            <ion-icon name="analytics"></ion-icon>
+          </div>
+
+          <div class="text">
+            <h5>Precise analytics</h5>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+
+        <div class="feature alt">
+          <div class="icon-wrapper">
+            <ion-icon name="hammer"></ion-icon>
+          </div>
+
+          <div class="text">
+            <h5>Wonderful tools</h5>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="icon-wrapper">
+            <ion-icon name="cube"></ion-icon>
+          </div>
+
+          <div class="text">
+            <h5>Quality packages</h5>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="goals">
+      <div class="intro">
+        <p class="accent">Our goal is to help you advance</p>
+
+        <h2>Pushing you and your team forward</h2>
+      </div>
+
+      <div class="container">
+        <div class="goal">
+          <div class="icon-wrapper">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+
+        <div class="goal">
+          <div class="icon-wrapper">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+
+        <div class="goal">
+          <div class="icon-wrapper">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature more">
+      <div class="text">
+        <div class="top">
+          <h2>More tools, more income</h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+
+        <a href="/free-trial" class="no-focus" tabindex="-1">
+          <button>Start free trial</button>
+        </a>
+      </div>
+
+      <div class="media-wrapper">
+        <div class="media">
+          <div class="component white pie-chart">
+            <div class="main">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24.0026 24V0C37.256 0 48 10.7452 48 24C48 37.2548 37.256 48 24.0026 48C12.8066 48 3.09826 40.257 0.606903 29.3405L24.0026 24Z"
+                  fill="#5C5CDE"></path>
+                <path
+                  d="M24.0026 24L0.606931 29.3405C-2.34222 16.418 5.74163 3.55121 18.6627 0.60173C20.4146 0.201842 22.2058 0 24.0026 0V24Z"
+                  fill="#DFDFFE"></path>
+              </svg>
+
+              <h4>70%</h4>
+            </div>
+
+            <p>Complete</p>
+          </div>
+
+          <div class="component white progresses">
+            <div class="text">
+              <p>Invoices</p>
+
+              <h5>$6,500</h5>
+            </div>
+
+            <div class="progress-bar">
+              <div class="inner"></div>
+            </div>
+
+            <div class="progress-bar">
+              <div class="inner two"></div>
+            </div>
+
+            <div class="progress-bar">
+              <div class="inner three"></div>
+            </div>
+          </div>
+
+          <div class="component white icon">
+            <div class="left">
+              <div class="icon-wrapper">
+                <ion-icon name="thumbs-up"></ion-icon>
+              </div>
+
+              <div class="text">
+                <h5>99%</h5>
+
+                <p>Success rate</p>
+              </div>
+            </div>
+
+            <div class="icon-wrapper positive">
+              <ion-icon name="trending-up"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature alt detailed-graphs">
+      <div class="media-wrapper">
+        <div class="media">
+          <div class="component pie-chart">
+            <div class="main">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24.0033 23.9967V0C37.2563 0 48 10.7437 48 23.9967C48 34.0849 41.6904 43.0959 32.2106 46.5463L24.0033 23.9967Z"
+                  fill="#5C5CDE"></path>
+                <path
+                  d="M24.0033 23.9967L32.2106 46.5463C19.7569 51.0791 5.98651 44.6579 1.45371 32.2041C-3.07909 19.7503 3.34212 5.97998 15.7959 1.44718C18.4263 0.489778 21.204 0 24.0033 0V23.9967Z"
+                  fill="#DFDFFE"></path>
+              </svg>
+
+              <h4>44%</h4>
+            </div>
+
+            <p>Complete</p>
+          </div>
+
+          <div class="component bar-chart">
+            <p>Growth</p>
+
+            <h5>56%</h5>
+
+            <div class="tag">
+              <ion-icon name="trending-up"></ion-icon>
+
+              <span>$300.2</span>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="152" height="123" viewBox="0 0 152 123" fill="none">
+              <rect width="24" height="123" rx="8" fill="#5C5CDE" />
+              <rect x="32" y="51" width="24" height="72" rx="8" fill="#5C5CDE"></rect>
+              <rect x="64" y="31" width="24" height="92" rx="8" fill="#5C5CDE"></rect>
+              <rect x="96" y="91" width="24" height="32" rx="8" fill="#5C5CDE"></rect>
+              <rect x="128" y="62" width="24" height="61" rx="8" fill="#5C5CDE"></rect>
+            </svg>
+          </div>
+
+          <div class="component icon">
+            <div class="left">
+              <div class="icon-wrapper">
+                <ion-icon name="analytics"></ion-icon>
+              </div>
+
+              <div class="text">
+                <h5>120%</h5>
+
+                <p>Analytics rate</p>
+              </div>
+            </div>
+
+            <div class="icon-wrapper positive">
+              <ion-icon name="trending-up"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text">
+        <p class="accent">Thorough and comprehensive reports</p>
+
+        <h2>Detailed graphs</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+    </section>
+
+    <section class="feature important-data">
+      <div class="text">
+        <p class="accent">Accurate and meaningful numbers</p>
+
+        <h2>Important data</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+
+      <div class="media-wrapper">
+        <div class="media">
+          <div class="component icon">
+            <div class="left">
+              <div class="icon-wrapper">
+                <ion-icon name="people"></ion-icon>
+              </div>
+
+              <div class="text">
+                <h5>150+</h5>
+
+                <p>New clients</p>
+              </div>
+            </div>
+
+            <div class="icon-wrapper positive">
+              <ion-icon name="trending-up"></ion-icon>
+            </div>
+          </div>
+
+          <div class="component trendline">
+            <p>Revenue</p>
+
+            <h5>$3.99M</h5>
+
+            <div class="tag">
+              <ion-icon name="trending-up"></ion-icon>
+
+              <span>8.16%</span>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="230" height="69" viewBox="0 0 230 69" fill="none">
+              <path
+                d="M0 67.3271C3 65.3271 3.4279 60.6397 5.62545 57.413C10.2487 50.6244 15.6019 43.9494 23.7068 41.2478C32.8419 38.2028 41.3609 40.7158 49.0043 46.1402C52.405 48.5536 55.4263 51.4003 58.7482 53.9068C62.3649 56.6357 66.2316 59.0018 70.0414 61.4492C75.0319 64.6549 80.05 67.4015 86.0842 67.4015C98.4358 67.4015 102.215 51.2285 108.65 43.1844C117.603 31.9932 131.8 30.8461 145.261 32.1766C149.359 32.5816 153.439 33.4483 157.553 33.6035C163.791 33.8389 170.066 33.6443 176.307 33.6443C186.766 33.6443 195.429 26.8129 202.298 19.4157C206.161 15.256 208.7 10.0446 212.511 5.75789C216.655 1.09555 223.46 2.08863 229.002 2.08863"
+                stroke="#5C5CDE" stroke-width="3" stroke-linecap="round"></path>
+            </svg>
+          </div>
+
+          <div class="component pie-chart">
+            <div class="main">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M24 24V0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 16.3175 3.67786 9.09926 9.89315 4.58359L24 24Z"
+                  fill="#5C5CDE"></path>
+                <path d="M24 24L9.89317 4.58359C13.9935 1.60452 18.9317 0 24 0V24Z" fill="#DFDFFE"></path>
+              </svg>
+
+              <h4>90%</h4>
+            </div>
+
+            <p>Happiness</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="intro">
+        <p class="accent">What people think</p>
+
+        <h2>Testimonials</h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="testimonial">
+            <div class="media-wrapper image">
+              <img src="/media/people/person1.svg">
+            </div>
+
+            <div class="text">
+              <h5>John Doe, CEO</h5>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="media-wrapper image">
+              <img src="/media/people/person2.svg">
+            </div>
+
+            <div class="text">
+              <h5>Jane Doe, Finance</h5>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="media-wrapper image">
+              <img src="/media/people/person3.svg">
+            </div>
+
+            <div class="text">
+              <h5>Jenny Doe, Sales</h5>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner pricing">
+      <div class="text">
+        <div class="intro">
+          <h2>Affordable pricing</h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+
+        <a href="/pricing" class="no-focus" tabindex="-1">
+          <button>View pricing</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="feature team">
+      <div class="text">
+        <div class="top">
+          <p class="accent">Built by a team that loves building</p>
+
+          <h2>An awesome team</h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+
+        <a href="/about" class="no-focus" tabindex="-1">
+          <button>Learn more about us</button>
+        </a>
+      </div>
+
+      <div class="media-wrapper">
+        <div class="media">
+          <div class="media-wrapper-image person4">
+            <img src="/media/people/person4.svg">
+          </div>
+
+          <div class="media-wrapper-image person5">
+            <img src="/media/people/person5.svg">
+          </div>
+
+          <h1>Source</h1>
+
+          <div class="media-wrapper-image person6">
+            <img src="/media/people/person6.svg">
+          </div>
+
+          <div class="media-wrapper-image person7">
+            <img src="/media/people/person7.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner cta">
+      <div class="decoration"></div>
+
+      <div class="text">
+        <div class="top">
+          <p class="accent">Time to increase sales</p>
+
+          <h2>Ready to grow your business with us?</h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <a href="/free-trial" class="no-focus" tabindex="-1">
+          <button>Start free trial</button>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="top">
+        <div class="column">
+          <div class="inner">
+            <div class="text">
+              <h3>Source</h3>
+
+              <p>The ultimate software for sales and services.</p>
+            </div>
+
+            <div class="email">
+              <input placeholder="Enter your email address">
+
+              <a href="/free-trial" class="no-focus" tabindex="-1">
+                <button class="white">Start free trial</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="inner">
+            <h5>Product</h5>
+
+            <div class="links">
+              <a href="/product#organization">Organization</a>
+
+              <a href="/product#customization">Customization</a>
+
+              <a href="/product#useful-and-practical">Useful and practical</a>
+
+              <a href="/product#automated-processes">Automated processes</a>
+
+              <a href="/product#team-management">Team management</a>
+
+              <a href="/product#real-time-collaboration">Real-time collaboration</a>
+
+              <a href="/product#notifications-and-reminders">Notifications and reminders</a>
+
+              <a href="/product#247-support">24/7 support</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="inner">
+            <h5>Resources</h5>
+
+            <div class="links">
+              <a href="/pricing">Pricing</a>
+
+              <a href="/pricing#testimonials">Testimonials</a>
+
+              <a href="/contact">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="inner">
+            <h5>Legal</h5>
+
+            <div class="links">
+              <a href="">Terms & Conditions</a>
+
+              <a href="">Privacy Policy</a>
+            </div>
+          </div>
+
+          <div class="inner">
+            <h5>About</h5>
+
+            <div class="links">
+              <a href="/about">Our team</a>
+
+              <a href="/about#why-us">Why us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <hr>
+
+        <div class="social-media">
+          <ion-icon name="logo-facebook"></ion-icon>
+
+          <ion-icon name="logo-twitter"></ion-icon>
+
+          <ion-icon name="logo-instagram"></ion-icon>
+
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+
+        <hr>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+<style>
+
+
+</style>
